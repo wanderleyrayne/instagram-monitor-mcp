@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "instagram-monitor": {
+      "command": "python",
+      "args": ["src/server.py"],
+      "cwd": "/caminho/para/instagram-monitor-mcp",
+      "env": {
+        "APIFY_API_TOKEN": "seu_token_aqui",
+        "EVOLUTION_API_URL": "http://localhost:8080",
+        "EVOLUTION_API_KEY": "sua_chave_aqui",
+        "EVOLUTION_INSTANCE": "minha-instancia"
+      }
+    }
+  }
+}
